@@ -1,0 +1,42 @@
+.contentNews{
+    width: calc(100vw - 28px);
+    height: calc(100vh - 114px);
+    min-height: 500px;
+    min-width: 900px;
+    background-color: rgb(218,226,235);
+    margin: 0 auto;
+    display: -webkit-flex; 
+    display: flex; 
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.NewsFeed{
+    width: 750px;
+    background-color: rgb(247, 246, 244);
+    height:calc(100vh - 130px); 
+    overflow: auto;
+    
+}
+.NewsFeed > h1{
+    margin: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color:  rgb(51,51,51);
+    
+}
+.NewsFeed > h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color:  rgb(51,51,51);
+    margin: 0;
+}
+.NewsFeed > h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color:  rgb(51,51,51);
+    margin: 0;
+    
+}
