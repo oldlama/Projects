@@ -1,0 +1,20 @@
+.expcard{
+    background-color: black;
+    color: rgb(46, 167, 16);
+   
+}
+.btn-outline-success{
+    color:  rgb(46, 167, 16);
+    border-color:  rgb(46, 167, 16);
+}
+.btn-outline-success:hover{
+    background-color:  rgb(46, 167, 16);
+}
+.card-text{
+    height: 80px;
+}
+.card-img-top
+{
+    height: 320px;
+    width: auto;
+}
