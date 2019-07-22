@@ -38,3 +38,6 @@ body{
 .mycard:hover p{
 visibility: visible;
 }
+
+a, img { outline: none; }
+   
